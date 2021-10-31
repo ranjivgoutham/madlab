@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise 7"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/teal_200"
+            android:padding="30sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10sp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10sp"
+            android:textColor="@color/black"
+            android:text="File name:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/teal_200"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="file name"
+            android:layout_margin="10sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            android:id="@+id/filename"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10sp"
+            android:textColor="@color/black"
+            android:text="Contents:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/teal_200"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="write here......"
+            android:layout_margin="10sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            android:id="@+id/contents"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_margin="30sp"
+            android:text="Write"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/write"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_margin="30sp"
+            android:text="Read"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/read"
+            />
+
+    </LinearLayout>
+</ScrollView>

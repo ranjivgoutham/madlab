@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Application1</string>
+    <string-array name="maritalstatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow</item>
+    </string-array>
+</resources>

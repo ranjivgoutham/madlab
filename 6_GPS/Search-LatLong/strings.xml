@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Place Location</string>
+    <string name="place_name">Place Name:</string>
+</resources>

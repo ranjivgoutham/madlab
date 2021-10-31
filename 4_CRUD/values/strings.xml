@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex4_database</string>
+    <string-array name="department">
+        <item>Software Engineer</item>
+        <item>Analyst</item>
+        <item>Manager</item>
+        <item>Full Stack</item>
+    </string-array>
+</resources>
